@@ -1,0 +1,10 @@
+- insert:
+    - id: dsh-mcp-firewall
+      name: dsh-mcp-firewall
+      config:
+        stateDir: !!js dshHomePath('mcp-firewall')
+        enabled: true
+        defaultAction: allow
+        injectionAction: ask
+        approvalTimeoutEnabled: true
+        approvalTimeoutMs: 600000

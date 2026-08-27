@@ -1,0 +1,8 @@
+node_modules/
+coverage/
+*.log
+.DS_Store
+
+# Runtime state and exported audit evidence are local data, never source files.
+.dsh-mcp-firewall/
+*.jsonl
