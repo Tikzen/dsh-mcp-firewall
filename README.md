@@ -119,7 +119,7 @@ MCP Firewall 把这些信息放进 DSH 的“安全”视图，并把审批、�
 ### 从 GitHub 源码安装
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/dsh-mcp-firewall.git
+git clone https://github.com/Tikzen/dsh-mcp-firewall.git
 cd dsh-mcp-firewall
 npm install
 npm run build
